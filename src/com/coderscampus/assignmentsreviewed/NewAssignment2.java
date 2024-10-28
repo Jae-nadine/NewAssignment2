@@ -7,7 +7,7 @@ public class NewAssignment2 {
 
 	public static void main(String[] args) {
 		Random random = new Random();
-		int randomNumber = random.nextInt(101);
+		int randomNumber = random.nextInt(100) + 1;
 
 		@SuppressWarnings("resource")
 		Scanner scanner = new Scanner(System.in);
